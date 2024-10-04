@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-white h-screen">
+    <header
+      class="bg-slate-50 flex justify-between w-screen px-20 fixed top-0 z-10 h-[80px] items-center shadow-xl"
+    >
+      <div
+        class="mobile bg-slate-50 absolute right-[43%] top-20 w-[80%] h-[210px] text-center -mr-[30%] hidden lg:hidden animate-bounce"
+      >
+        <ul>
+          <li class="leading-[50px] border-b-2 border-black">
+            <a href="#/">Home</a>
+          </li>
+          <li class="leading-[50px] border-b-2 border-black">
+            <a  href="#property">Properties</a>
+          </li>
+          <li class="leading-[50px] border-b-2 border-black">
+            <a href="#">Properties Details</a>
+          </li>
+          <li class="leading-[50px] p-2">
+            <a href="#contact">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="logo text-[20px] font-extrabold tracking-widest">
+        <h2>VILLA</h2>
+      </div>
+      <div class="lg:flex sm:hidden font-mono">
+        <div class="links mr-10 text-[20px]">
+          <ul class="flex">
+            <li class="mx-5 text-red-600">
+              <a href="#">Home</a>
+            </li>
+            <li class="mx-5 hover:text-red-600">
+              <a href="#property">Properties</a>
+            </li>
+            <li class="mx-5 hover:text-red-600">
+              <a href="#">Properties Details</a>
+            </li>
+            <li class="mx-5 hover:text-red-600">
+              <a href="#contact">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="schedule flex text-[20px] bg-black rounded-full text-white h-10 w-[200px] text-sm justify-center items-center relative"
+          >
+          <i
+            class="fa-duotone fa-solid fa-trash-arrow-up absolute left-0 bg-red-600 rounded-full w-[40px] h-10 grid place-content-center text-center"
+          ></i>
+          <h3
+            class="ml-8 hover:text-red-500 transition-all duration-200 ease-in-out cursor-pointer delay-500"
+          >
+            schedule a visit
+           </h3>
+        </div>
+      </div>
+      <div class="hamburger lg:hidden">
+        <i class="fa-solid fa-bars cursor-pointer"></i>
+      </div>
+    </header>
+
+    <main>
+      <div
+        class="bg-[url('https://media.istockphoto.com/id/1778738751/photo/summer-is-over-in-the-garden.jpg?s=2048x2048&w=is&k=20&c=wBTIo_R9VEfKJzlRj7xnCVF2e8Tj_oIDNo5hpzveu3o=')] h-[800px] bg-center bg-cover brightness-100 mt-20 w-screen"
+      >
+        <div class="pt-[16em] pl-[18em]">
+          <h2 class="bg-white w-[150px] text-center p-2">Toronto, Canada</h2>
+          <h1 class="text-white text-5xl font-extrabold mt-12 leading-tight">
+            HURRY! <br />
+            GET THE BEST VILLA <br />
+            FOR YOU.
+          </h1>
+        </div>
+      </div>
+
+      <div class="cards lg:flex mt-20 pl-[140px] sm:block relative">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1684445034959-b3faeb4597d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGlubmVyJTIwdGFibGV8ZW58MHx8MHx8fDA%3D"
+          alt="house dinning"
+          title="image of a dinner"
+          class="mt-5 h-[450px] lg:w-[300px] sm:w-[500px] sm:mb-20 sm:mr-[auto]"
+        />
+
+        <div
+          class="icon2 lg: bg-red-500 rounded-full w-[80px] h-[80px] text-center flex items-center justify-center text-2xl absolute -bottom-5 left-[120px] sm:top-[400px]"
+        >
+          <i class="fa-solid fa-house-fire"></i>
+        </div>
+
+        <div class="card1 ml-10">
+          <h2 class="border-l-4 border-red-500 font-bold text-2xl mb-5 mt-5">
+            Features
+          </h2>
+          <h2
+            class="text-5xl font-bold mb-20 lg:leading-[80px] sm:leading-[50px]"
+          >
+            Best Appartment <br />
+
+            & Sea view
+          </h2>
+
+          <aside class="bg-slate-400 w-[500px] rounded-lg sm:mb-10">
+            <details>
+              <summary class="border-b-2 border-gray-500 p-2">
+                Best useful links?
+              </summary>
+              <p>
+                Get the best villa website template in HTML CSS and Bootstrap
+              </p>
+              <p>
+                for your business. TemplateMo provides you the best free CSS
+              </p>
+              <p>templates in the world. Please tell your friends about it.</p>
+            </details>
+
+            <details>
+              <summary class="border-b-2 border-gray-500 p-2">
+                How does this work?
+              </summary>
+              <p>
+                Dolor almesit amet, consectetur adipiscing elit, sed doesn't
+                eiusmod tempor incididunt ut labore consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+              </p>
+            </details>
+
+            <details>
+              <summary class="p-2">Why is villa Agency the best?</summary>
+              <p>
+                Dolor almesit amet, consectetur adipiscing elit, sed doesn't
+                eiusmod tempor incididunt ut labore consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+              </p>
+            </details>
+          </aside>
+        </div>
+
+        <div
+          class="card2 mt-5 bg-slate-300 shadow-2xl h-[450px] w-[300px] ml-10 mr-10 sm:w-[400px] mb-20 rounded-lg"
+        >
+          <div class="carded flex border-b-2 border-slate-400">
+            <div class="icon flex mt-5 text-5xl ml-5">
+              <i class="fa-solid fa-house-tsunami"></i>
+            </div>
+            <div class="text ml-5 mt-5">
+              <h2 class="text-2xl font-bold">250 m2</h2>
+              <h4 class="opacity-0.8 mb-8">Total flat space.</h4>
+            </div>
+          </div>
+
+          <div class="carded flex border-b-2 border-slate-400">
+            <div class="icon flex mt-5 text-5xl ml-5">
+              <i class="fa-solid fa-house-tsunami"></i>
+            </div>
+            <div class="text ml-5 mt-5">
+              <h2 class="text-2xl font-bold">250 m2</h2>
+              <h4 class="opacity-0.8 mb-8">Total flat space.</h4>
+            </div>
+          </div>
+
+          <div class="carded flex border-b-2 border-slate-400">
+            <div class="icon flex mt-5 text-5xl ml-5">
+              <i class="fa-solid fa-house-tsunami"></i>
+            </div>
+            <div class="text ml-5 mt-5">
+              <h2 class="text-2xl font-bold">250 m2</h2>
+              <h4 class="opacity-0.8 mb-8">Total flat space.</h4>
+            </div>
+          </div>
+
+          <div class="carded flex">
+            <div class="icon flex mt-5 text-5xl ml-5">
+              <i class="fa-solid fa-house-tsunami"></i>
+            </div>
+            <div class="text ml-5 mt-5">
+              <h2 class="text-2xl font-bold">250 m2</h2>
+              <h4 class="opacity-0.8 mb-8">Total flat space.</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video_area border-2 border-black ml-5 relative">
+        <img
+          src="https://media.istockphoto.com/id/1857318974/photo/semi-detached-home-suburb-urban-toronto-city-house.jpg?s=2048x2048&w=is&k=20&c=C448pxQzxQ2iyJ_Vlh4t4wsJmJmwQfCuFi6XUOv6yZ0="
+          alt="this image is burring"
+          title="Blurring image"
+          loading="lazy"
+          class="lg:h-[600px] lg:w-screen blur-sm sm:h-[700px]"
+        />
+
+        <div>
+          <h2
+            class="border-l-4 border-red-600 text-red-600 font-extrabold absolute top-0 lg:left-[650px] mt-20 sm:left-[305px]"
+          >
+            View Video
+          </h2>
+          <h1
+            class="text-white font-light font-serif leading-[70px] absolute top-0 lg:left-[500px] mt-[150px] text-5xl tracking-wide sm:left-[150px]"
+          >
+            Get Closer View & <br />
+            Different Feeling
+          </h1>
+        </div>
+
+        <div>
+          <img
+            src="https://plus.unsplash.com/premium_photo-1661962841993-99a07c27c9f4?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="idk"
+            title="still don't know"
+            class="w-[80%] lg:h-[500px] absolute lg:top-[450px] lg:left-[150px] rounded-xl sm:h-[250px] sm:top-[445px] sm:left-[75px]"
+          />
+
+          <div
+            class="w-[90px] h-[90px] rounded-full bg-red-100 absolute lg:right-[50%] lg:top-[110%] sm:top-[520px] sm:right-[320px]"
+          >
+            <div
+              class="bg-red-300 w-[50px] h-[50px] rounded-full absolute bottom-[20px] right-[20px]"
+            >
+              <a target="_blank" href="https://www.youtube.com/"
+                ><i
+                  class="fa-solid fa-play absolute right-[18px] bottom-[15px] animate-ping"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="lg:mt-[30rem] lg:flex lg:space-x-48 justify-center sm:block sm:mt-[10rem] sm:pl-52 lg:p-0"
+      >
+        <div
+          class="card1 bg-pink-300 w-[280px] h-[100px] flex gap-x-5 rounded-2xl justify-center items-center relative sm:mb-10"
+        >
+          <h1 class="font-extrabold text-3xl">34</h1>
+          <h2 class="font-extrabold text-2xl">
+            Buildings <br />
+            Finished Now
+          </h2>
+
+          <div
+            class="w-[50px] h-[50px] rounded-full bg-red-400 absolute -top-5 -right-5"
+          ></div>
+        </div>
+
+        <div
+          class="card1 bg-pink-300 w-[280px] h-[100px] flex gap-x-5 rounded-2xl justify-center items-center relative sm:mb-10"
+        >
+          <h1 class="font-extrabold text-3xl">12</h1>
+          <h2 class="font-extrabold text-2xl">
+            Years of <br />
+            Experience
+          </h2>
+
+          <div
+            class="w-[50px] h-[50px] rounded-full bg-red-400 absolute -top-5 -right-5"
+          ></div>
+        </div>
+
+        <div
+          class="card1 bg-pink-300 w-[280px] h-[100px] flex gap-x-5 rounded-2xl justify-center items-center relative sm:mb-10"
+        >
+          <h1 class="font-extrabold text-3xl">24</h1>
+          <h2 class="font-extrabold text-2xl">
+            Award won <br />
+            2024
+          </h2>
+
+          <div
+            class="w-[50px] h-[50px] rounded-full bg-red-400 absolute -top-5 -right-5"
+          ></div>
+        </div>
+      </div>
+
+
+ 
+      <div class="best_deals bg-slate-400 w-screen">
+         <div class="text_links lg:flex justify-between sm:block">
+          <div class="text pl-28 mt-24">
+            <h2 class="text-red-500 lg:border-l-2 border-red-500 mb-10 sm:text-center sm:pt-10  sm:pr-20 lg:pr-0 lg:pt-0 lg:text-left">BEST DEAL</h2>
+            <h1 class="font-extrabold text-5xl leading-[60px] lg:text-left sm:text-center sm:pr-20 lg:pr-0">
+              Find Your Best Deal <br />
+              Right Now!
+            </h1>
+          </div>
+   
+          <div class="links pr-40 flex space-x-5 items-center lg:mt-56 sm:justify-center sm:items-center sm:pl-28 sm:mt-20">
+            <a
+              class="bg-red-500 text-white rounded-md w-[150px] h-[50px] grid place-content-center font-extrabold text-lg"
+              href="#"
+              >Appartment</a
+            >
+            <a
+              class="bg-black text-white rounded-md w-[150px] h-[50px] grid place-content-center font-extrabold text-lg"
+              href="#"
+              >Villa house</a
+            >
+            <a
+              class="bg-black text-white rounded-md w-[150px] h-[50px] grid place-content-center font-extrabold text-lg"
+              href="#"
+              >Penthouse</a
+            >
+            </div>
+         </div>
+
+
+
+          <div class="caridng_area lg:flex mt-20 pb-20 sm:block">
+              <div class="details bg-slate-300 shadow-2xl lg:w-[280px] h-[380px] rounded-2xl ml-28 px-10 py-5 leading-[70px] sm:w-[500px] sm:mb-10 lg:mb-0">
+
+                  <div class="details_text flex justify-between border-b-2 border-gray-400 gap-x-5">
+                    <h3>Total Flat Space</h3>
+                    <h2 class="font-extrabold text-xl mt-5">185 m2</h2>
+                  </div>
+
+
+
+                  <div class="details_text flex justify-between border-b-2 border-gray-400 gap-x-5">
+                    <h3>Floor number</h3>
+                    <h2 class="font-extrabold text-xl mt-5">26th</h2>
+                  </div>
+
+
+
+
+                  <div class="details_text flex justify-between border-b-2 border-gray-400 gap-x-5">
+                    <h3>Number of rooms</h3>
+                    <h2 class="font-extrabold text-xl mt-5">4</h2>
+                  </div>
+
+
+
+
+                  <div class="details_text flex justify-between border-b-2 border-gray-400 gap-x-5">
+                    <h3>Parking Available</h3>
+                    <h2 class="font-extrabold text-xl mt-5">Yes</h2>
+                  </div>
+
+
+
+
+                  <div class="details_text flex justify-between gap-x-5">
+                    <h3>Payment Process</h3>
+                    <h2 class="font-extrabold text-xl mt-5">Bank</h2>
+                  </div>
+
+
+              </div>
+
+
+
+
+              <div class="pic">
+                <img src="https://plus.unsplash.com/premium_photo-1676968002945-c8f74e0e27d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="sitting room" title="sitting room" class="lg:w-[500px] h-[410px] ml-20 sm:pl-10 sm:w-[540px]">
+              </div>
+              <div class="long_text lg:ml-20 sm:ml-28">
+                 <h1 class="font-extrabold text-2xl sm:mt-10 lg:mt-0">Extra Info About Property</h1>
+                 <p class="mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, do <br> eiusmod tempor pack incididunt ut labore et dolore magna  <br> aliqua quised ipsum suspendisse.</p>
+
+
+                 <p class="mt-10">When you need free CSS templates, you can  simply type    <br> TemplateMo in any search engine website. In addition, you  <br> can type  <br> TemplateMo Portfolio, TemplateMo One Page Layouts, etc.</p>
+
+
+                 <div
+                 class=" sm:mt-10 lg:mt-24 schedule flex text-[20px] bg-black rounded-full text-white h-10 w-[200px] text-sm justify-center items-center relative"
+                 >
+                 <i
+                   class="fa-duotone fa-solid fa-trash-arrow-up absolute left-0 bg-red-600 rounded-full w-[40px] h-10 grid place-content-center text-center"
+                 ></i>
+                 <h3
+                   class="ml-8 hover:text-red-500 transition-all duration-200 ease-in-out cursor-pointer delay-500"
+                 >
+                   schedule a visit
+                  </h3>  
+               </div>
+              </div>
+             </div> 
+      </div>
+
+
+
+      
+
+
+        <div class="properties">
+          <div class="properties_text text-center mt-10 mb-20">
+            <h3 class="text-red-500 text-2xl mb-5 mt-8">Properties</h3>
+            <h2 class="font-extrabold text-4xl tracking-wide leading-[40px]">We Provide The Best <br>  Property You Like</h2>
+          </div>
+          <divn id="property" class="houses  lg:grid grid-cols-3 px-32 gap-y-8 gap-x-10 sm:block sm:space-y-8 lg:space-y-0">
+
+             <div class="house bg-sky-100 lg:w-[400px] h-[610] pt-5 pb-2 px-10  rounded-xl sm:w-[520px]">
+               <img src="https://plus.unsplash.com/premium_photo-1661963209358-0f4d5f509d10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fEhvdXNlfGVufDB8fDB8fHww" alt="house" title="house"  class="lg:w-[350px] lg:h-[250px] rounded-xl sm:w-[450px] sm:h-[300px] sm:mr-[8px]">
+
+                <div class="house_text flex justify-between mt-5">
+                  <h1 class="bg-pink-100 p-1 font-light rounded-md">Luxury Villa</h1>
+                  <h1 class="pr-5 font-bold text-lg text-red-500">$2.264.000</h1>
+                 </div>
+
+                 <div class="house_p">
+                  <p class="font-extrabold mt-5 text-lg">18 New Street Miami, OR 97219</p>
+                 </div>
+
+                 <div class="house_details mt-5 border-b-2 border-black">
+                   <div class="house_details_text flex gap-x-8">
+                    <h3>Bedrooms: <span class="font-extrabold">8</span></h3>
+                    <h3>Bathrooms: <span class="font-extrabold">8</span></h3>
+                   </div>
+                    <div class="house_details_text2 flex gap-x-5">
+                    <h3>Area: <span class="font-extrabold">545m2</span></h3>
+                    <h3>Floor: <span class="font-extrabold">3</span></h3>
+                    <h3 class="mb-8">Parking: <span class="font-extrabold">6 spots</span></h3>
+                    </div>
+                   </div>
+
+
+                   <div class="shedule2 w-[200px] h-[40px] rounded-full mt-8  bg-black text-white lg:ml-14 sm:ml-28 sm:mb-4   grid place-content-center">
+                    <h1>Shedule a visit</h1>
+                   </div>
+
+
+             </div>
+
+
+             <div class="house bg-sky-100 lg:w-[400px] h-[610] pt-5 pb-2 px-10  rounded-xl sm:w-[520px]">
+              <img src="https://images.unsplash.com/photo-1560184897-ae75f418493e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fEhvdXNlfGVufDB8fDB8fHww" alt="house" title="house"  class="lg:w-[350px] lg:h-[250px] rounded-xl sm:w-[450px] sm:h-[300px] sm:mr-[8px]">
+
+               <div class="house_text flex justify-between mt-5">
+                 <h1 class="bg-pink-100 p-1 font-light rounded-md">Luxury Villa</h1>
+                 <h1 class="pr-5 font-bold text-lg text-red-500">$1.180.000
+                </h1>
+                </div>
+
+                <div class="house_p">
+                 <p class="font-extrabold mt-5 text-lg">54 Mid Street Florida, OR 27001</p>
+                </div>
+
+                <div class="house_details mt-5 border-b-2 border-black">
+                  <div class="house_details_text flex gap-x-8">
+                   <h3>Bedrooms: <span class="font-extrabold">6</span></h3>
+                   <h3>Bathrooms: <span class="font-extrabold">5</span></h3>
+                  </div>
+                   <div class="house_details_text2 flex gap-x-5">
+                   <h3>Area: <span class="font-extrabold">450m2</span></h3>
+                   <h3>Floor: <span class="font-extrabold">3</span></h3>
+                   <h3 class="mb-8">Parking: <span class="font-extrabold">8 spots</span></h3>
+                   </div>
+                  </div>
+
+
+                  <div class="shedule2 w-[200px] h-[40px] rounded-full mt-8  bg-black text-white lg:ml-14 sm:ml-28 sm:mb-4   grid place-content-center">
+                   <h1>Shedule a visit</h1>
+                  </div>
+
+
+            </div>
+
+           
+            <div class="house bg-sky-100 lg:w-[400px] h-[610] pt-5 pb-2 px-10  rounded-xl sm:w-[520px]">
+              <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fEhvdXNlfGVufDB8fDB8fHww" alt="house" title="house"  class="lg:w-[350px] lg:h-[250px] rounded-xl sm:w-[450px] sm:h-[300px] sm:mr-[8px]">
+
+               <div class="house_text flex justify-between mt-5">
+                 <h1 class="bg-pink-100 p-1 font-light rounded-md">Luxury Villa</h1>
+                 <h1 class="pr-5 font-bold text-lg text-red-500">$1.180.000
+                </h1>
+                </div>
+
+                <div class="house_p">
+                 <p class="font-extrabold mt-5 text-lg">54 Mid Street Florida, OR 27001</p>
+                </div>
+
+                <div class="house_details mt-5 border-b-2 border-black">
+                  <div class="house_details_text flex gap-x-8">
+                   <h3>Bedrooms: <span class="font-extrabold">6</span></h3>
+                   <h3>Bathrooms: <span class="font-extrabold">5</span></h3>
+                  </div>
+                   <div class="house_details_text2 flex gap-x-5">
+                   <h3>Area: <span class="font-extrabold">450m2</span></h3>
+                   <h3>Floor: <span class="font-extrabold">3</span></h3>
+                   <h3 class="mb-8">Parking: <span class="font-extrabold">8 spots</span></h3>
+                   </div>
+                  </div>
+
+
+                  <div class="shedule2 w-[200px] h-[40px] rounded-full mt-8  bg-black text-white lg:ml-14 sm:ml-28 sm:mb-4   grid place-content-center">
+                   <h1>Shedule a visit</h1>
+                  </div>
+
+
+            </div>
+
+
+
+
+
+            <div class="house bg-sky-100 lg:w-[400px] h-[610] pt-5 pb-2 px-10  rounded-xl sm:w-[520px]">
+              <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="house" title="house"  class="lg:w-[350px] lg:h-[250px] rounded-xl sm:w-[450px] sm:h-[300px] sm:mr-[8px]">
+
+               <div class="house_text flex justify-between mt-5">
+                 <h1 class="bg-pink-100 p-1 font-light rounded-md">Apartment</h1>
+                 <h1 class="pr-5 font-bold text-lg text-red-500">$584.500</h1>
+                </div>
+
+                <div class="house_p">
+                 <p class="font-extrabold mt-5 text-lg">12 New Street Miami, OR 12650</p>
+                </div>
+
+                <div class="house_details mt-5 border-b-2 border-black">
+                  <div class="house_details_text flex gap-x-8">
+                   <h3>Bedrooms: <span class="font-extrabold">4</span></h3>
+                   <h3>Bathrooms: <span class="font-extrabold">3</span></h3>
+                  </div>
+                   <div class="house_details_text2 flex gap-x-5">
+                   <h3>Area: <span class="font-extrabold">125m2</span></h3>
+                   <h3>Floor: <span class="font-extrabold">25th</span></h3>
+                   <h3 class="mb-8">Parking: <span class="font-extrabold">2 cars</span></h3>
+                   </div>
+                  </div>
+
+
+                  <div class="shedule2 w-[200px] h-[40px] rounded-full mt-8  bg-black text-white lg:ml-14 sm:ml-28 sm:mb-4   grid place-content-center">
+                   <h1>Shedule a visit</h1>
+                  </div>
+
+
+            </div>
+
+
+
+
+            <div class="house bg-sky-100 lg:w-[400px] h-[610] pt-5 pb-2 px-10  rounded-xl sm:w-[520px]">
+              <img src="https://images.unsplash.com/photo-1510627489930-0c1b0bfb6785?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="house" title="house"  class="lg:w-[350px] lg:h-[250px] rounded-xl sm:w-[450px] sm:h-[300px] sm:mr-[8px]">
+
+               <div class="house_text flex justify-between mt-5">
+                 <h1 class="bg-pink-100 p-1 font-light rounded-md">Penthouse</h1>
+                 <h1 class="pr-5 font-bold text-lg text-red-500">$925.600</h1>
+                </div>
+
+                <div class="house_p">
+                 <p class="font-extrabold mt-5 text-lg">34 Beach Street Miami, OR 42680</p>
+                </div>
+
+                <div class="house_details mt-5 border-b-2 border-black">
+                  <div class="house_details_text flex gap-x-8">
+                   <h3>Bedrooms: <span class="font-extrabold">4</span></h3>
+                   <h3>Bathrooms: <span class="font-extrabold">4</span></h3>
+                  </div>
+                   <div class="house_details_text2 flex gap-x-5">
+                   <h3>Area: <span class="font-extrabold">180m2</span></h3>
+                   <h3>Floor: <span class="font-extrabold">38th</span></h3>
+                   <h3 class="mb-8">Parking: <span class="font-extrabold">2 cars</span></h3>
+                   </div>
+                  </div>
+
+
+                  <div class="shedule2 w-[200px] h-[40px] rounded-full mt-8  bg-black text-white lg:ml-14 sm:ml-28 sm:mb-4   grid place-content-center">
+                   <h1>Shedule a visit</h1>
+                  </div>
+
+
+            </div>
+
+            <div class="house bg-sky-100 lg:w-[400px] h-[610] pt-5 pb-2 px-10  rounded-xl sm:w-[520px]">
+              <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fEhvdXNlfGVufDB8fDB8fHww" alt="house" title="house"  class="lg:w-[350px] lg:h-[250px] rounded-xl sm:w-[450px] sm:h-[300px] sm:mr-[8px]">
+
+               <div class="house_text flex justify-between mt-5">
+                 <h1 class="bg-pink-100 p-1 font-light rounded-md">Modern Condo</h1>
+                 <h1 class="pr-5 font-bold text-lg text-red-500">$450.000</h1>
+                </div>
+
+                <div class="house_p">
+                 <p class="font-extrabold mt-5 text-lg">22 New Street Portland, OR 16540</p>
+                </div>
+
+                <div class="house_details mt-5 border-b-2 border-black">
+                  <div class="house_details_text flex gap-x-8">
+                   <h3>Bedrooms: <span class="font-extrabold">3</span></h3>
+                   <h3>Bathrooms: <span class="font-extrabold">2</span></h3>
+                  </div>
+                   <div class="house_details_text2 flex gap-x-5">
+                   <h3>Area: <span class="font-extrabold">165m2</span></h3>
+                   <h3>Floor: <span class="font-extrabold">26th</span></h3>
+                   <h3 class="mb-8">Parking: <span class="font-extrabold">3 cars</span></h3>
+                   </div>
+                  </div>
+
+
+                  <div class="shedule2 w-[200px] h-[40px] rounded-full mt-8  bg-black text-white lg:ml-14 sm:ml-28 sm:mb-4   grid place-content-center">
+                   <h1>Shedule a visit</h1>
+                  </div>     
+                 </div>
+
+
+
+         
+         </div>
+
+            <div id="contact" class="contact_area  mt-20 relative">
+               <div class="img_area grayscale blur-sm">
+              <img src="https://media.istockphoto.com/id/2149088667/photo/3d-rendering-of-modern-house-in-luxurious-style-in-night.jpg?s=2048x2048&w=is&k=20&c=riZJg2BQtyuPHM3UAc_t_FSwVBpGFoMI1UPlDqLe294=" alt="contact area pic" title="contact area pic" class="pl-1 h-[650px] w-full ">
+                  
+               </div>
+                <div class="contact_text_area absolute top-0 right-[42%] text-white mt-10">
+                 <h2 class="font-extrabold text-2xl text-red-500 lg:ml-28 sm:ml-[280px]">Contact us</h2>
+                 <h1 class="font-extrabold text-4xl sm:hidden lg:block">Get In Touch With  <br> <span class="ml-20">Our Agents</span></h1>
+                
+               </div>
+            </div>   
+
+       
+
+             <div class="form_area lg:flex justify-between relative lg:pt-[330px] sm:pt-20 sm:ml-20">
+                 <div class="get_in_touch lg:flex sm:block  lg:space-x-8 ml-20 sm:space-y-5 lg:space-y-0 sm:space-x-0 sm:pb-[20rem]">
+                   <div class="number lg:w-[250px]  sm:w-[450px] h-[100px] bg-slate-300 flex justify-center items-center rounded-2xl gap-x-8">
+                    <i class="fa-solid fa-phone-volume text-5xl text-red-600"></i>
+                    <div class="number_text">
+                      <h1>07068435911</h1>
+                      <p>Phone number</p> 
+                    </div>
+                   </div>
+                   <div class="info lg:w-[280px] sm:w-[450px] h-[100px] bg-slate-300 flex justify-center items-center rounded-2xl gap-x-8">
+                    <i class="fa-sharp fa-solid fa-envelope text-5xl text-red-600"></i>
+                    <div class="info_text">
+                       <h1>godsfavour9@gmail.com</h1>
+                       <p>Business Email</p>
+                    </div>
+                   </div>
+                 </div>
+
+
+
+                  <div class="form_section bg-slate-200 w-[500px] mr-[180px]  pl-8 pt-8 rounded-2xl shadow-2xl h-[620px] absolute lg:-top-[180px] right-0 sm:top-[50px] sm:mt-[20rem] lg:mt-0 sm:mx-28">
+                         <form action="https://wa.link/5leqya" target="_blank">
+                          <p>   <label for="name">Name</label> <br>
+                            <input class="bg-slate-50 p-2 mb-10 w-[420px] rounded-full text-red-700" type="text" name="name" id="name"  placeholder="Enter your name" required autocomplete="on" autofocus></p>
+      
+                           <p>
+                               <label for="email">Email Address</label> <br>
+                           <input class="bg-slate-50 p-2 mb-10 w-[420px] rounded-full " type="email" name="email" id="email" placeholder="Enter your email..." required autocomplete="on">
+                           </p>
+       
+                             <p>
+                              <label for="subject">subject</label> <br>
+                              <input class="bg-slate-50 p-2  mb-10 w-[420px] rounded-full " type="text" name="subject" id="subject" placeholder="subject..." required autocomplete="on">
+                             </p>
+      
+                           <label for="message">Message</label> <br>
+                          <textarea class="bg-slate-50  w-[420px] rounded-2xl p-5 h-[180px] max-h-[150px]" name="message"   id="message" placeholder="Write your message..."></textarea> <br>
+      
+                          <button class="bg-black text-white rounded-full mt-8 w-[150px] p-2 hover:bg-red-400 transition-all ease-in-out duration-200 delay-200" type="submit">send message</button>
+                         </form>
+                  </div>
+                </div>
+
+    </main>
+
+
+    <footer class="bg-black text-white w-screen p-10 text-center lg:mt-40 sm:mt-[30rem]">
+      <h1>copyright &copy;  2048 Villa Agency Co., Ltd. All rights reserved. Design: <span class="sm: font-bold text-3xl">By GodsFavour</span>.</h1>
+    </footer>
+    
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
