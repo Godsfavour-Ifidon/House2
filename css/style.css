@@ -1322,7 +1322,7 @@ video {
   color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .sm\:left-\[150px\] {
     left: 150px;
   }
